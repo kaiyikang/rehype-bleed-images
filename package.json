@@ -1,0 +1,45 @@
+{
+  "name": "rehype-bleed-images",
+  "version": "1.0.0",
+  "description": "A rehype plugin that transforms images to bleed beyond container boundaries for full-width display",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/markdown.test.js",
+    "test:simple": "node test/simple-markdown.test.js",
+    "test:all": "node test/index.test.js && node test/markdown.test.js"
+  },
+  "keywords": [
+    "rehype",
+    "rehype-plugin",
+    "markdown",
+    "html",
+    "images",
+    "full-width",
+    "responsive",
+    "tailwind"
+  ],
+  "author": "kaiyikang <kaiyikang@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaiyikang/rehype-bleed-images.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaiyikang/rehype-bleed-images/issues"
+  },
+  "homepage": "https://github.com/kaiyikang/rehype-bleed-images#readme",
+  "peerDependencies": {
+    "rehype": "^12.0.0 || ^13.0.0"
+  },
+  "dependencies": {
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "rehype": "^13.0.2",
+    "rehype-stringify": "^10.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "unified": "^11.0.5"
+  }
+}
